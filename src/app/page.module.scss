@@ -1,8 +1,21 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  height: 200vh;
+  position: relative;
+
+  .card1,
+  .card2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 100px;
+    height: 50vh;
+  }
+
+  .card1 {
+    background-color: blue;
+  }
+
+  .card2 {
+    background-color: green;
+  }
 }
